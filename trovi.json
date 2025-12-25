@@ -17,7 +17,7 @@
             "datePublished": "2025-12-25T07:57:30+00:00",
             "description": "This repository reproduces experimental results from the VLDB 2021 paper Beyond Equi-joins: Ranking, Enumeration and Factorization. The work focuses on query processing techniques beyond traditional equi-joins, including ranked enumeration, factorized representations, and efficient enumeration of query results. All algorithms and theoretical ideas originate from the original authors. This artifact is provided solely for reproducibility. Original repository: https://github.com/northeastern-datalab/anyk-code/",
             "disambiguatingDescription": "Reproducibility of VLDB 2021 Beyond Equi-joins experiments",
-            "keywords": "reproducible-research,experiment,education",
+            "keywords": "experiment,education",
             "name": "Beyond Equi-joins: Ranking, Enumeration and Factorization (Reproducibility)"
         },
         {
