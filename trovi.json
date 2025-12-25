@@ -1,0 +1,49 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "actionApplication": [
+                {
+                    "@id": "#ChameleonJupyterLab"
+                }
+            ],
+            "author": [
+                {
+                    "@id": "#author_0"
+                }
+            ],
+            "datePublished": "2025-12-25T07:57:30+00:00",
+            "description": "This repository reproduces experimental results from the VLDB 2021 paper Beyond Equi-joins: Ranking, Enumeration and Factorization. The work focuses on query processing techniques beyond traditional equi-joins, including ranked enumeration, factorized representations, and efficient enumeration of query results. All algorithms and theoretical ideas originate from the original authors. This artifact is provided solely for reproducibility. Original repository: https://github.com/northeastern-datalab/anyk-code/",
+            "disambiguatingDescription": "Reproducibility of VLDB 2021 Beyond Equi-joins experiments",
+            "keywords": "reproducible-research,experiment,education",
+            "name": "Beyond Equi-joins: Ranking, Enumeration and Factorization (Reproducibility)"
+        },
+        {
+            "@id": "trovi.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "#author_0",
+            "@type": "Person",
+            "affiliation": "Universitas Jember",
+            "email": "auliaputribwi1997@gmail.com",
+            "name": "Aulia Putri Maharani"
+        },
+        {
+            "@id": "#ChameleonJupyterLab",
+            "@type": "SoftwareApplication",
+            "name": "Chameleon JupyterLab",
+            "trovi_arguments": "{}",
+            "trovi_type": "jupyterhub",
+            "url": "https://jupyter.chameleoncloud.org/"
+        }
+    ]
+}
